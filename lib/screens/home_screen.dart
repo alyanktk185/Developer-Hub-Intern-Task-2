@@ -10,7 +10,7 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  final CounterController controller = Get.put(CounterController());
+  final CounterController controller = Get.find();
 
   @override
   Widget build(BuildContext context) {
