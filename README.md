@@ -1,15 +1,23 @@
-# Developer-Hub-Intern-Task-2
-A simple Flutter counter app demonstrating state management with GetX. Users can increment or decrement the counter, and the state updates instantly with reactive UI.
+# 🧮 Flutter Counter App with GetX & SharedPreferences
 
-## Getting Started
+A simple counter application built using Flutter that demonstrates:
 
-This project is a starting point for a Flutter application.
+- 🔁 State management using **GetX**
+- 💾 Persistent data storage using **SharedPreferences**
+- ➕ Two Floating Action Buttons to increment and decrement the counter
 
-A few resources to get you started if this is your first Flutter project:
+The counter value is preserved even after the app restarts.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📱 Features
+
+- ✅ Increment and decrement the counter
+- ✅ Persistent state using SharedPreferences
+- ✅ MVVM architecture with clean separation of logic
+- ✅ Built using GetX for reactive UI updates
+
+---
+
+## 🏗️ Project Structure (MVVM)
+
